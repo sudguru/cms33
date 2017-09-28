@@ -1,0 +1,33 @@
+/* Add here all your CSS customizations */
+#header .header-top
+{
+	background: url(../img/topbg.jpg) repeat-x;
+}
+
+#header .header-body
+{
+	border-top: 5px solid #2b1e0e;
+}
+
+.sidebar.shop-sidebar .filter-price .filter-price-details .form-control {
+	width: auto;
+}
+
+.sidebar.shop-sidebar ul li a, 
+.sidebar.shop-sidebar ol li a 
+{
+	line-height: 1.5;
+	font-size: 13px;
+}
+
+.sidebar.shop-sidebar ul li a.selected, 
+.sidebar.shop-sidebar ol li a.selected 
+{
+	color: #fff;
+	background-color: #600;
+}
+
+.product-details-box .product-detail-options .configurable-filter-list li a {
+	width: 44px;
+	height: 44px;
+}
